@@ -1,0 +1,48 @@
+{
+  "name": "unarchive",
+  "version": "0.0.1",
+  "main": "lib/unarchive.js",
+  "description": "Uncompress archive file with pure javascript on NodeJS.",
+  
+      "homepage": "https://github.com/pingjiang/unarchive",
+    
+    "bugs": "https://github.com/pingjiang/unarchive/issues",
+  "author": {
+    "name": "pingjiang",
+    "email": "pingjiang1989@gmail.com"  ,
+        "url": "https://github.com/pingjiang" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pingjiang/unarchive"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "cli.js"
+  ],
+  "keywords": [
+    "unarchive"  ,
+        "NodeJS"  ,
+        "unrar"  ,
+        "unzip"  ,
+        "untar"  ,
+        "archive"  ,
+        "unarchive" 
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0" 
+  },
+  "scripts": {
+    "test": "grunt" 
+  }  ,
+      "bin": {
+        "unarchive": "cli.js"
+    },
+    "preferGlobal": "true" 
+}
